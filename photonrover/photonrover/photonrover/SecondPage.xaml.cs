@@ -23,7 +23,27 @@ namespace photonrover
 
         private void Button_ClickF(object sender, EventArgs e)
         {
-            Control_F();
+            //Control_F();
+        }
+
+        private void Button_ClickB(object sender, EventArgs e)
+        {
+            //Control_F();
+        }
+
+        private void Button_ClickL(object sender, EventArgs e)
+        {
+            //Control_F();
+        }
+
+        private void Button_ClickR(object sender, EventArgs e)
+        {
+            //Control_F();
+        }
+
+        private void Button_ClickS(object sender, EventArgs e)
+        {
+            //Control_F();
         }
 
         async void Task1()
@@ -47,7 +67,25 @@ namespace photonrover
 
         async void Control_B()
         {
-            var response = await myDevice.CallFunctionAsync("relayOff", "B-100");
+            var response = await myDevice.CallFunctionAsync("control", "B-100");
+
+        }
+
+        async void Control_L()
+        {
+            var response = await myDevice.CallFunctionAsync("control", "L-100");
+
+        }
+
+        async void Control_R()
+        {
+            var response = await myDevice.CallFunctionAsync("control", "R-100");
+
+        }
+
+        async void Control_S()
+        {
+            var response = await myDevice.CallFunctionAsync("control", "S");
 
         }
     }
