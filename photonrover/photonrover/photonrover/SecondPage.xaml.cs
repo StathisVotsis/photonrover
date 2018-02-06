@@ -23,27 +23,27 @@ namespace photonrover
 
         private void Button_ClickF(object sender, EventArgs e)
         {
-            //Control_F();
+            Control_F();
         }
 
         private void Button_ClickB(object sender, EventArgs e)
         {
-            //Control_F();
+            Control_B();
         }
 
         private void Button_ClickL(object sender, EventArgs e)
         {
-            //Control_F();
+            Control_L();
         }
 
         private void Button_ClickR(object sender, EventArgs e)
         {
-            //Control_F();
+            Control_R();
         }
 
         private void Button_ClickS(object sender, EventArgs e)
         {
-            //Control_F();
+            Control_S();
         }
 
         async void Task1()
